@@ -1,0 +1,11 @@
+.Card {
+  margin-top: 92px;
+  width: 263px;
+  height: 716px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+}
+.Card::-webkit-scrollbar {
+  display: none;
+}

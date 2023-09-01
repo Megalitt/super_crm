@@ -1,0 +1,100 @@
+.Today {
+  margin-top: 8px;
+  background: #f4f8ff;
+  border-radius: 7px;
+  padding: 4px;
+}
+.main {
+  padding: 10px;
+  width: 255px;
+  height: 158px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 2px 0px rgba(208, 218, 235, 1), 0px 0px 2px 0 rgba(238, 244, 254, 1);
+  background: #fff;
+}
+.title {
+  display: flex;
+  width: 235px;
+  height: 55px;
+  position: relative;
+  line-height: 18px;
+}
+.check {
+  position: absolute;
+  background: #f4f8ff;
+  border-radius: 4px;
+  border: 1px solid #7B8AAB;
+  top: 4px;
+  cursor: pointer;
+}
+.text {
+  color: #3d8fec;
+  margin-left: 18px;
+  margin-top: 0;
+  overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+  text-align: left;
+}
+
+.date {
+  color: #50b810;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  height: 19px;
+}
+.description {
+  width: 235px;
+  height: 20px;
+  margin-top: 4px;
+  font-size: 13px;
+  overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+  text-align: left;
+}
+.tags {
+  margin-top: 10px;
+  width: 235px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.tag {
+  display: flex;
+
+}
+.block {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.tag1 {
+  padding: 0 6px;
+  width: 68px;
+  height: 20px;
+  background: #B233A6;
+  color: #ffff;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tag2 {
+  width: 72px;
+  height: 20px;
+  background: #EBEEF6;
+  color: #616C82;
+  font-size: 12px;
+  border-radius: 4px, 0, 0, 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.block img {
+  height: 20px;
+}
